@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="BarZap - Instant Barcode Creation" />
+    <meta
+      name="description"
+      content="Generate barcodes instantly with BarZap. Fast, simple, and free barcode generator tool."
+    />
+    <meta
+      name="keywords"
+      content="barcode generator, create barcode, online barcode tool, free barcode maker"
+    />
+    <meta name="author" content="Krish Bharadwaj" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="BarZap" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <title>BarZap - Instant Barcode Creation</title>
+  </head>
+  <body>
+    <div class="page1">
+      <div class="main-box">
+        <div class="first-part">
+          <h2 class="barcode-head">Barcode Generator</h2>
+        </div>
+
+        <div class="search-part">
+          <input type="text" class="search-bar" placeholder="" />
+          <button class="barcode-btn">Generate</button>
+        </div>
+
+        <div class="barcode-part">
+          <svg id="barcode"></svg>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"
+      integrity="sha512-k2wo/BkbloaRU7gc/RkCekHr4IOVe10kYxJ/Q8dRPl7u3YshAQmg3WfZtIcseEk+nGBdK03fHBeLgXTxRmWCLQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
