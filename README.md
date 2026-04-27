@@ -3,6 +3,8 @@
 **BarZap** is a fast and simple web-based barcode generator that allows users to create barcodes instantly.
 Just enter your text or number, click generate, and get your barcode in seconds.
 
+![BarZapDemo](https://github.com/KrishBharadwaj5678/BarZap/raw/main/BarZapDemo.png)
+
 ## ✨ Features
 
 | Feature                      | Description                                         |
